@@ -6,8 +6,7 @@ import instance.Transport;
 /**
  * @author 霖
  */
-public class SeaTransportFactory implements TransportFactory {
-    @Override
+public class SeaTransportFactory {
     public Transport createTransportInstance() {
         return new SeaTransport();
     }
