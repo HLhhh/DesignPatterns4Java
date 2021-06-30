@@ -2,6 +2,7 @@ package classic;
 
 /**
  * 简化版的建造者模式
+ *
  * @author 霖
  */
 public class Computer {
