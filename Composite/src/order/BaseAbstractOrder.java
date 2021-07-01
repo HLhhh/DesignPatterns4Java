@@ -17,7 +17,7 @@ public abstract class BaseAbstractOrder implements AbstractOrder {
     public BigDecimal orderPrice;
     public final BigDecimal profit;
 
-    public static final int ZERO = 0;
+    protected static final int ZERO = 0;
 
     public BaseAbstractOrder(BigDecimal profit) {
         this.profit = profit;
@@ -40,7 +40,7 @@ public abstract class BaseAbstractOrder implements AbstractOrder {
         status = FINISH;
     }
 
-    enum OrderStatus {
+    public enum OrderStatus {
 
         /**
          * 初始化
