@@ -5,13 +5,13 @@ package instant;
  */
 public class Single {
 
-    private static Single single = new Single();
+    private final static Single SINGLE = new Single();
 
     private Single() {
 
     }
 
     public static Single getSingle() {
-        return single;
+        return SINGLE;
     }
 }
